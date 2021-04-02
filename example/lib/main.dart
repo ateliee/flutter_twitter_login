@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_twitter_login/flutter_twitter_login.dart';
+import 'package:flutter_twitter/flutter_twitter.dart';
 
 void main() => runApp(new MyApp());
 
@@ -11,8 +11,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   static final TwitterLogin twitterLogin = new TwitterLogin(
-    consumerKey: 'kkOvaF1Mowy4JTvCxKTV5O1WF',
-    consumerSecret: 'ZECGsI6UUDBEUVGkJe4S5vd0FGqGxC3wMJCgsXgPRfjSwRFnyH',
+    consumerKey: 'YOURCONSUMERKEY',
+    consumerSecret: 'YOURSECRET',
   );
 
   String _message = 'Logged out.';

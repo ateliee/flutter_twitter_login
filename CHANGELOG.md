@@ -1,3 +1,7 @@
+## 1.1.2
+
+* Forked project to use versioning 
+
 ## 1.1.0
 
 * Dart 2 support! There should not be any breaking changes. Please do file issues if you have problems.
